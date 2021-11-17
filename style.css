@@ -1,0 +1,901 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Banner Section*/
+
+.banner-section-box{
+	height: 100vh;
+  width: 100%;
+  background: url(images/slider.jpg);
+  background-size: cover;
+
+}
+
+.banner-section-box .banner-section-box-bg{
+	height:100vh;
+	width: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+
+.banner-section-box-bg .main-nav{
+	width: 100%;
+	height:80px;
+	background: rgba(0, 0, 0, .8);
+	position: fixed;
+	z-index: 9999;
+	
+}
+.banner-section-box-bg .main-nav img{
+	width: 200px;
+	height: 60px;
+	float: left;
+	padding: 10px;
+
+}
+.banner-section-box-bg .menubar li{
+	height: 20px;
+	width: 40px;
+	display: inline-block;
+	padding: 30px;
+	color: white;
+	font-size:20px;
+	
+
+}
+.banner-section-box-bg .menubar li:hover{
+	background-color:#4169e1;
+	height: 20px;
+	width:40px;
+	
+}
+.banner-section-box h1{
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	margin-top: 250px;
+	font-weight: bold;
+}
+.banner-section-box p{
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*bnner button1*/
+.banner-section-box .banner-box-btn1{
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-left: 500px;
+	font-size:15px;
+	border-radius: 20px 20px 20px 20px ;
+	margin-top: 50px;
+	color: white;
+	background-color: #4169e1;
+	font-weight: bold;
+}
+/*banner button1 effect*/
+.banner-section-box .banner-box-btn1:hover{
+	background-color:green;
+	transform: scale(1.3);
+	box-shadow:5px 10px 15px 5px black;
+}
+
+
+/*banner button2 */
+.banner-section-box .banner-box-btn2
+{
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-left:25px;
+	font-size: 15px;
+	border-radius: 20px 20px 20px 20px;
+	/*margin-top: 50px;*/
+	color: white;
+	background-color: darkorange;
+	font-weight: bold;
+}
+
+/*banner button2 effect*/
+.banner-section-box .banner-box-btn2:hover
+{
+	background-color:darkgreen;
+	transform: scale(1.3);
+	box-shadow: 5px 10px 15px 5px black;
+}
+
+
+.banner-section-box .menubar .icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color:darkorange;
+	font-size:30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	/*margin-left: 40px;*/
+	position: absolute;
+	top: 15px;
+	right: 35px;
+
+}
+/*end banner section*/
+
+/*who we are*/
+.who-we-are-box{
+	width: 100%;
+	height: 550px;
+	
+}
+.who-we-are-box-row2 .who-we-are-box-row2-blocks{
+	width: 18%;
+	height: 200px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 40px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+ .who-we-are-box-row2-blocks .icon{
+ 	margin-top: 30px;
+ 	font-size: 40px;
+ 	color: orange;
+ }
+ .who-we-are-box-row2-blocks h2{
+ 	margin-top: 20px;
+ }
+ .who-we-are-box-row2-blocks  p{
+ 	color: black;
+ 	margin-top: 12px;
+ 	margin-left: 20px;
+ }
+.who-we-are-box-row2-blocks .animate-color{
+	/*background-color:silver;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+  transition: all 0.1s;
+}
+
+.who-we-are-box-row2-blocks:hover .animate-color{
+	top: 0px;
+	background-color: #ed7b1b;
+	color: white;
+}
+
+/*why choose us box*/
+.why-choose-us-box{
+	width: 100%;
+	height: 500px;
+	background-color: gray;
+	margin-top: 10px;
+}
+.why-choose-us-box .column1-box{
+	width: 50%;
+	height: 500px;
+	float: left;
+	background-color: #4169e1;
+	position: relative;
+}
+.why-choose-us-box .column1-box .content-box
+{
+  width:80%;
+  height: 80px;
+  float: left;
+  background-color: red;
+}
+
+.why-choose-us-box .column1-box h1{
+	margin-left: 50px;
+	color: white;
+	margin-top: 40px;
+}
+.why-choose-us-box .column1-box h4,p{
+	margin-left: 80px;
+	color: white;
+}
+/*end why choose us box*/
+
+
+/*what we do box*/
+.what-we-do-box{
+	width: 100%;
+	height: 900px;
+	background-color: white;
+}
+.what-we-do-box-row1
+{
+	width: 100%;
+	height:auto;
+	text-align:center ;
+}
+
+.what-we-do-box-row2 .what-we-do-box-row2-blocks{
+	width: 23%;
+	height: 260px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 40px;
+	border: 2px solid gray;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+
+}
+.what-we-do-box-row2-blocks .icon{
+	margin-top:30px;
+	font-size: 40px;
+	color: orange;
+}
+.what-we-do-box-row2-blocks h2{
+  
+	margin-top: 30px;
+}
+.what-we-do-box-row2-blocks p{
+	color: black;
+	margin-top:25px;
+	margin-left:30px;
+}
+.what-we-do-box-row2-blocks .animate-color{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	transition:all 0.1s;
+	
+}   
+
+.what-we-do-box-row2-blocks:hover .animate-color  {
+	top: 0;
+	background-color:#ed7b1b;
+    color: white;	
+
+
+}
+
+
+/*counter class*/
+.counter-box{
+	width: 100%;
+	height: 200px;
+	background: url(images/counters-bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	box-shadow: 20px 20px 30px 0px inset;
+
+}
+.counter-box-row{
+	width: 100%;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.7);
+	
+
+}
+.counter-box-column{
+	width: 33.33%;
+	height: 200px;
+	float: left;
+}
+.counter-box-column h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:40px;
+}
+.counter-box-column p{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	
+}
+/*end Counter Section*/
+
+
+/*latest project*/
+.latest-project-box{
+	width: 100%;
+	height: 650px;
+	background-color: silver;
+	position:relative;
+}
+
+/*latest project Button*/
+
+.latest-project-box .button{
+	width: 230px;
+	height: 50px;
+	font-size:25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:sans-serif;
+	background-color: #cc5500;
+	position: absolute;
+	left:560px;
+    top: 235px;
+    border-radius:10px 10px 10px 10px;
+    box-shadow:inset 0 0 0 0  darkgreen;
+    z-index: 9999;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: ease-out 0.3s;
+}
+
+/*latest project button effect*/
+
+.latest-project-box .button:hover
+{
+	box-shadow: inset 230px 0px 0px 0px darkgreen;
+	color: white;
+}
+
+.latest-project-box-slider{
+	width: 100%;
+	height:355px;
+	margin-top: 80px;
+	border: 3px solid black;
+	box-shadow: 5px 10px 15px 5px;
+	box-sizing: border-box;
+
+}
+.latest-project-box-slider .box{
+	position: relative;
+	width: 25%;
+	height:350px;
+	float:left;
+}
+.latest-project-box-slider .box .imgbox{
+	position: relative;
+	overflow: hidden;
+}
+
+/*latest project images*/
+.latest-project-box-slider .box .imgbox img{
+	width: 100%;
+	height: 350px;
+	transition: transform 2s;
+}
+
+/*latest project image effect*/
+
+.latest-project-box-slider .box:hover .imgbox img{
+	transform: scale(1.2);
+}
+
+/*latest project content details*/
+.latest-project-box-slider .box .details{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
+	background: rgba(0, 0, 0, .9);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.latest-project-box-slider .box:hover .details{
+	transform: scaleY(1);
+	border:2px solid white;
+}
+.latest-project-box-slider .box .details .content
+{
+	position: absolute;
+	top: 50px;
+	transform: translateY(-50%);
+	padding: 15px;
+	text-align: center;
+	
+}
+.latest-project-box-slider .box .details .content h1{
+	margin-top: 200px;
+	font-size:36px;
+	color: white;
+}
+.latest-project-box-slider .box .details .content h3{
+	color: skyblue;
+	margin-top: 15px;
+
+}
+.latest-project-box-slider .box .details .content p{
+	color: white;
+	margin-top: 30px;
+  margin-left:25px;
+}
+
+.latest-project-box-slider .box .details .content .icon{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 120px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: white;
+	color: orange;
+	margin-top:40px;
+}
+/*end latest project box*/
+
+
+/*Meet our team*/
+.meet-our-team-box{
+	width: 100%;
+	height:650px;
+	background-color:white;
+	position: relative;
+}
+.meet-our-team-box-cards{
+	width: 100%;
+	height:330px;
+	float: left;
+	margin-top: 60px;
+}
+.meet-our-team-box-cards .box-card{
+	width:22%;
+	height: 330px;
+	box-shadow:5px 10px 15px 5px;
+	float: left;
+	margin-left: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.meet-our-team-box-cards .box-card img{
+	width: 100%;
+	height: 330px;
+	float: left;
+}
+.meet-our-team-box-cards .box-card .content{
+	
+	background-color: black;
+	position: absolute;
+	top: 75%;
+	left:0%;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	transition: all 0.5s;
+}
+.meet-our-team-box-cards .box-card:hover .content{
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+
+}
+.meet-our-team-box-cards .box-card .content h2
+{
+	
+	margin-top: 10px;
+}
+.meet-our-team-box-cards .box-card .content h4
+{
+   margin-top: 12px;
+}
+.meet-our-team-box-cards .box-card .content p
+{
+	margin-top: 30px;
+	margin-left:20px;
+
+}
+.meet-our-team-box-cards .box-card .content .media-icon{
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+.meet-our-team-box-cards .box-card .content .media-icon .icon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	border-radius:50px;
+	margin-left: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid white;
+}
+/*end meet our team */
+
+
+/*what our client say*/
+
+.what-our-client-box{
+	width: 100%;
+	height: 600px;
+	background: url(images/testimonials-bg.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100vh;
+}
+.what-our-client-box .client-box{
+	width: 100%;
+	height: 600px;
+	background: rgba(0, 0, 0, 0.7);
+}
+.what-our-client-box .client-box .client{
+	width: 60%;
+	height: 600px;
+	text-align: center;
+	margin-left:250px;
+	color: white;
+}
+.what-our-client-box .client-box .client img{
+	width: 100px;
+	height: 100px;
+	border-radius:50px;
+	border: 4px double ;
+	
+}
+/*end what our client say*/
+
+
+
+/*latest blog post*/
+
+.latest-blog-post-box{
+	width: 100%;
+	height: 800px;
+	background-color:white;
+}
+
+.latest-blog-post-box .blogs{
+	width:27%;
+	height: 510px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	border: 2px solid gray;
+	position: relative;
+}
+.latest-blog-post-box h3{
+	width: 120px;
+	height:40px;
+	background-color:white;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	
+	
+
+.latest-blog-post-box .blogs img{
+	width: 100%;
+	height:250px;
+}
+ .latest-blog-post-box .blogs:hover h3{
+	background-color: #85c1e9;
+	color: white;
+}
+.latest-blog-post-box .blogs h4{
+	margin-top: 30px;
+   margin-left:30px;
+   color: navy;
+}
+ .latest-blog-post-box .blogs h2{
+	margin-top: 30px;
+	margin-left:30px;
+	font-size:26px;
+}
+.latest-blog-post-box .blogs p{
+	margin-top: 20px;
+	margin-left:30px;
+	font-size: 15px;
+	font-family:monospace;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.latest-blog-post-box .blogs .blogs-box{
+	width: 100%;
+	height:auto;
+	margin-top: 30px;
+	border-top:2px solid gray;
+	position: relative;
+}
+.blogs .blogs-box i{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.blogs .blogs-box h5{
+	position: absolute;
+	left:60px;
+	top: 10px;
+	font-size: 15px;
+}
+.latest-blog-post-box .view-all{
+	width: 130px;
+	height: 40px;
+	margin-top: 35px;
+	margin-left: 600px;
+	margin-bottom: 30px;
+	background-color: orangered;
+	color: white;
+	font-size: 20px;
+}
+.latest-blog-post-box .view-all:hover 
+{
+	transform:scale(1.0);
+	background-color:green;
+	border-radius:10px 10px 10px 10px;
+	color: white;
+}
+
+
+/*start our partners box*/
+
+.our-partners-box{
+	width: 100%;
+	height: 150px;
+	background-color: silver;
+	position: relative;
+	margin-top:60px;
+}
+.our-partners-box h1{
+	margin-left: 300px;
+	line-height: 4;
+   float: left;
+   font-size: 36px;
+}
+.our-partners-box img{
+	width: 200px;
+	height:100px;
+	margin-top: 25px;
+}
+
+/*10-Our Pricing*/
+.OurPricing{
+	background-color: white;
+	height: 600px;
+	width: 100%;
+	float: left;
+	margin-top:60px;
+}
+.OurPricingTitle{
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.Teble_Starter{
+	background-color: lightgrey;
+	height: 400px;
+	width: 300px;
+	border: 1px solid black;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.Teble_Starter td{
+	border-top: 1px dashed black;
+}
+.Teble_Starter th{
+	font-size: 25px;
+}
+.Teble_Starter button{
+	height: 40px;
+	width: 140px;
+	color: blue;
+	border-radius: 10px;
+	border-color: blue;
+	font-size: 15px;
+	cursor: pointer;
+}
+.OurPricingteble1{
+	float: left;
+	padding: 20px;
+	margin-left: 200px;
+	margin-top:50px;
+}
+.OurPricingteble2{
+	float: left;
+	padding: 20px;
+	margin-top: 50px;
+}
+.OurPricingteble3{
+	float: left;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+
+.Teble_Starter2{
+	background-color: blue;
+	color: white;
+	height: 400px;
+	width: 300px;
+	border: 1px solid black;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.Teble_Starter2 td{
+	border-top: 1px dashed black;
+}
+.Teble_Starter2 th{
+	font-size: 25px;
+}
+.Teble_Starter2 button{
+	height: 40px;
+	width: 140px;
+	color: white;
+	background-color: blue;
+	border-radius: 10px;
+	border-color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+/*Get in Touch*/
+
+.get-in-touch-box{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+}
+.get-in-touch-box .get-in-touch-box-column1{
+	width: 50%;
+	height:600px;
+	float: left;
+	margin-top:100px;
+
+}
+.get-in-touch-box .get-in-touch-box-column2{
+	width: 50%;
+	height: 600px;
+	float: left;
+	margin-top: 100px;
+	background: url(images/form-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.get-in-touch-box-column2 .get-in-touch-box-form{
+	width: 100%;
+	height: 600px;
+	background: rgba(0, 0, 0, 0.9);
+}
+.get-in-touch-box-form .form{
+	width: 80%;
+	height: 400px;
+	margin-left: 65px;
+}
+.get-in-touch-box-form .form input{
+	width: 250px;
+	height: 30px;
+	margin-left: 8px;
+
+}
+.get-in-touch-box-form .form .btn{
+	width: 150px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius:10px 10px 10px 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	margin-left: 30px;
+	background-color: darkorange;
+}
+.get-in-touch-box-form .form .btn:hover{
+	transform: scale(1.2);
+	background-color: green;
+}
+
+/*end Get In touch*/
+
+
+/*start Footer section*/
+.box1{
+	height: 150px;
+	width: 100%;
+	background: #3a9ac8;
+	float: left;
+	margin-top:60px;
+}
+
+.contact_box:hover{
+    background-color: white;
+    color: #3a9ac8;
+}
+.contact_box{
+	color: white;
+	font-family: sans-serif;
+	 font-size: 25px;
+	 border: 2px solid white;
+     padding: 10px;
+	border-radius: 10px;
+}
+.box2{
+	height: 500px;
+	width: 100%;
+	/*background-color: #242424;*/
+	color: #AAAAAA;
+}
+.box2_1{
+	width: 30%;
+	padding: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.list{
+	height: 100%;
+    width: 50%;
+    float: left;
+}
+.list li{
+	padding: 7px;
+	font-family: sans-serif;
+}
+.location{
+	font-size: 25px;
+	margin-left: 30px;
+	padding-top: 30px;
+
+}
+.tel{
+	font-size: 25px;
+	margin-left: 30px;
+	padding-top: 40px;
+}
+.email{
+	font-size: 25px;
+	margin-left: 30px;
+	padding-top: 40px;
+}
+.facebook{
+  	font-size: 25px;
+  	color: blue;
+    padding: 10px;
+  	border: 1px solid black;
+  	border-radius: 160%;
+  	background-color: white;
+  	margin-left: 10%;
+  }
+  .twitter{
+  	font-size: 25px;
+  	color: white;
+    padding: 10px;
+  	border: 1px solid black;
+  	border-radius: 160%;
+  	background-color:deepskyblue;
+  
+  }
+  .youtube{
+  	font-size: 25px;
+  	color: red;
+    padding: 10px;
+  	border: 1px solid black;
+  	border-radius: 160%;
+  	background-color: white;
+  
+  }
+  .link{
+  	font-size: 25px;
+  	color:white;
+    padding: 10px;
+  	border: 1px solid black;
+  	border-radius: 160%;
+  	background-color: blue;
+  }
